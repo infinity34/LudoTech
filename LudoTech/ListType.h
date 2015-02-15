@@ -14,7 +14,11 @@
     
 }
 
+// ===== PROPERTIES =====
+
 @property (strong, nonatomic) NSMutableOrderedSet* listType;
+
+// ===== METHODS =====
 
 -(void) addType:(Type*)type;
 -(void) removeType:(Type*)type;

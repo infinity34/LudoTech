@@ -14,7 +14,11 @@
     
 }
 
+// ===== PROPERTIES =====
+
 @property (strong, nonatomic) NSMutableOrderedSet* listDifficulty;
+
+// ===== METHODS =====
 
 -(void) addDifficulty:(Difficulty*)difficulty;
 -(void) removeDifficulty:(Difficulty*)difficulty;

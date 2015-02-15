@@ -10,6 +10,22 @@
 
 @implementation Variant
 
+// ===== CONSTRUCTORS =====
+
+-(id)initWithName:(NSString *)name
+{
+    self = [super init];
+    
+    if (self)
+    {
+        self->_name = name;
+    }
+    
+    return self;
+}
+
+// ===== INSTANCE METHODS =====
+
 -(void)addEdition:(Edition *)edition
 {
     [_listEdition addObject:edition];

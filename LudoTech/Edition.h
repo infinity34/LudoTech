@@ -14,6 +14,8 @@
     
 }
 
+// ===== PROPERTIES =====
+
 @property (strong, nonatomic) NSString* name;
 @property (strong, nonatomic) NSString* language;
 @property (strong, nonatomic) NSString* editor;
@@ -25,5 +27,9 @@
 @property (strong, nonatomic) NSMutableOrderedSet* listIllustrator;
 
 @property (weak, nonatomic) Difficulty* difficulty;
+
+// ===== METHODS =====
+
+-(id) initWithName:(NSString*)name andLanguage:(NSString*)language andEditor:(NSString*)editor andTheme:(NSString*)theme andYear:(NSNumber*)year andDifficulty:(Difficulty*)difficulty;
 
 @end

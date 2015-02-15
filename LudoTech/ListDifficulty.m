@@ -10,6 +10,8 @@
 
 @implementation ListDifficulty
 
+// ===== INSTANCE METHODS =====
+
 -(void)addDifficulty:(Difficulty *)difficulty
 {
     [_listDifficulty addObject:difficulty];
@@ -24,7 +26,7 @@
 {
     for (int ind = 0; ind < [_listDifficulty count]; ind++)
     {
-        // TODO get Type
+        // TODO get Difficulty
     }
 }
 

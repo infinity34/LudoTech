@@ -10,4 +10,19 @@
 
 @implementation Difficulty
 
+// ===== CONSTRUCTORS =====
+
+-(id)initWithName:(NSString *)name andLevel:(NSNumber *)level
+{
+    self = [super init];
+    
+    if (self)
+    {
+        self->_name = name;
+        self->_level = level;
+    }
+    
+    return self;
+}
+
 @end

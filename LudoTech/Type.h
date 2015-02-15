@@ -13,6 +13,12 @@
     
 }
 
+// ===== PROPERTIES =====
+
 @property (weak, nonatomic) NSString* name;
+
+// ===== METHODS =====
+
+-(id) initWithName:(NSString*)name;
 
 @end

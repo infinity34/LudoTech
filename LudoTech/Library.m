@@ -10,6 +10,8 @@
 
 @implementation Library
 
+// ===== INSTANCE METHODS =====
+
 -(void)addGame:(Game *)game
 {
     [_listGame addObject:game];

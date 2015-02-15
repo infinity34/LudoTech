@@ -15,10 +15,16 @@
     
 }
 
+// ===== PROPERTIES =====
+
 @property (strong, nonatomic) NSString* name;
 
 @property (strong, nonatomic) NSMutableOrderedSet* listEdition;
 @property (strong, nonatomic) NSMutableOrderedSet* listExtension;
+
+// ===== METHODS =====
+
+-(id) initWithName:(NSString*)name;
 
 -(void) addEdition:(Edition*)edition;
 -(void) removeEdition:(Edition*)edition;

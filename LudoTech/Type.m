@@ -10,4 +10,18 @@
 
 @implementation Type
 
+// ===== CONSTRUCTORS =====
+
+-(id)initWithName:(NSString *)name
+{
+    self = [super init];
+    
+    if (self)
+    {
+        self->_name = name;
+    }
+    
+    return self;
+}
+
 @end

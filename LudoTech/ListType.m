@@ -10,6 +10,8 @@
 
 @implementation ListType
 
+// ===== INSTANCE METHODS =====
+
 -(void)addType:(Type *)type
 {
     [_listType addObject:type];

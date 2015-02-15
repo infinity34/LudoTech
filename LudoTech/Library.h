@@ -14,7 +14,11 @@
     
 }
 
+// ===== PROPERTIES =====
+
 @property (strong, nonatomic) NSMutableOrderedSet* listGame;
+
+// ===== METHODS =====
 
 -(void) addGame:(Game*)game;
 -(void) removeGame:(Game*)game;

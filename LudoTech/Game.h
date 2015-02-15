@@ -15,11 +15,17 @@
     
 }
 
+// ===== PROPERTIES =====
+
 @property (strong, nonatomic) NSString* name;
 
 @property (strong, nonatomic) NSMutableOrderedSet* listVariant;
 
 @property (weak, nonatomic) Type* type;
+
+// ===== METHODS =====
+
+-(id) initWithName:(NSString*)name andType:(Type*)type;
 
 -(void) addVariant:(Variant*)variant;
 -(void) removeVariant:(Variant*)variant;

@@ -9,5 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface Type : NSObject
+{
+    
+}
+
+@property (weak, nonatomic) NSString* name;
 
 @end

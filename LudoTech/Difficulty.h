@@ -9,5 +9,11 @@
 #import <Foundation/Foundation.h>
 
 @interface Difficulty : NSObject
+{
+    
+}
+
+@property (weak, nonatomic) NSString* name;
+@property (weak, nonatomic) NSNumber* level;
 
 @end

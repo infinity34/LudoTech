@@ -27,12 +27,12 @@
 		A5743DA51A90A6CA0001CFC8 /* Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A5743DA31A90A6CA0001CFC8 /* Extension.m */; };
 		A5743DA81A90A6EE0001CFC8 /* Type.m in Sources */ = {isa = PBXBuildFile; fileRef = A5743DA71A90A6EE0001CFC8 /* Type.m */; };
 		A5743DA91A90A6EE0001CFC8 /* Type.m in Sources */ = {isa = PBXBuildFile; fileRef = A5743DA71A90A6EE0001CFC8 /* Type.m */; };
-		A5743DAC1A90A7010001CFC8 /* TypeList.m in Sources */ = {isa = PBXBuildFile; fileRef = A5743DAB1A90A7010001CFC8 /* TypeList.m */; };
-		A5743DAD1A90A7010001CFC8 /* TypeList.m in Sources */ = {isa = PBXBuildFile; fileRef = A5743DAB1A90A7010001CFC8 /* TypeList.m */; };
 		A5743DB01A90A7120001CFC8 /* Difficulty.m in Sources */ = {isa = PBXBuildFile; fileRef = A5743DAF1A90A7120001CFC8 /* Difficulty.m */; };
 		A5743DB11A90A7120001CFC8 /* Difficulty.m in Sources */ = {isa = PBXBuildFile; fileRef = A5743DAF1A90A7120001CFC8 /* Difficulty.m */; };
-		A5743DB41A90A7220001CFC8 /* DifficultyList.m in Sources */ = {isa = PBXBuildFile; fileRef = A5743DB31A90A7220001CFC8 /* DifficultyList.m */; };
-		A5743DB51A90A7220001CFC8 /* DifficultyList.m in Sources */ = {isa = PBXBuildFile; fileRef = A5743DB31A90A7220001CFC8 /* DifficultyList.m */; };
+		A5743DB81A90AF130001CFC8 /* ListType.m in Sources */ = {isa = PBXBuildFile; fileRef = A5743DB71A90AF130001CFC8 /* ListType.m */; };
+		A5743DB91A90AF130001CFC8 /* ListType.m in Sources */ = {isa = PBXBuildFile; fileRef = A5743DB71A90AF130001CFC8 /* ListType.m */; };
+		A5743DBC1A90AF1E0001CFC8 /* ListDifficulty.m in Sources */ = {isa = PBXBuildFile; fileRef = A5743DBB1A90AF1E0001CFC8 /* ListDifficulty.m */; };
+		A5743DBD1A90AF1E0001CFC8 /* ListDifficulty.m in Sources */ = {isa = PBXBuildFile; fileRef = A5743DBB1A90AF1E0001CFC8 /* ListDifficulty.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,12 +73,12 @@
 		A5743DA31A90A6CA0001CFC8 /* Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Extension.m; sourceTree = "<group>"; };
 		A5743DA61A90A6EE0001CFC8 /* Type.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Type.h; sourceTree = "<group>"; };
 		A5743DA71A90A6EE0001CFC8 /* Type.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Type.m; sourceTree = "<group>"; };
-		A5743DAA1A90A7010001CFC8 /* TypeList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypeList.h; sourceTree = "<group>"; };
-		A5743DAB1A90A7010001CFC8 /* TypeList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypeList.m; sourceTree = "<group>"; };
 		A5743DAE1A90A7120001CFC8 /* Difficulty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Difficulty.h; sourceTree = "<group>"; };
 		A5743DAF1A90A7120001CFC8 /* Difficulty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Difficulty.m; sourceTree = "<group>"; };
-		A5743DB21A90A7220001CFC8 /* DifficultyList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DifficultyList.h; sourceTree = "<group>"; };
-		A5743DB31A90A7220001CFC8 /* DifficultyList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DifficultyList.m; sourceTree = "<group>"; };
+		A5743DB61A90AF130001CFC8 /* ListType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListType.h; sourceTree = "<group>"; };
+		A5743DB71A90AF130001CFC8 /* ListType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListType.m; sourceTree = "<group>"; };
+		A5743DBA1A90AF1E0001CFC8 /* ListDifficulty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListDifficulty.h; sourceTree = "<group>"; };
+		A5743DBB1A90AF1E0001CFC8 /* ListDifficulty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListDifficulty.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,12 +132,12 @@
 				A5743DA31A90A6CA0001CFC8 /* Extension.m */,
 				A5743DA61A90A6EE0001CFC8 /* Type.h */,
 				A5743DA71A90A6EE0001CFC8 /* Type.m */,
-				A5743DAA1A90A7010001CFC8 /* TypeList.h */,
-				A5743DAB1A90A7010001CFC8 /* TypeList.m */,
+				A5743DB61A90AF130001CFC8 /* ListType.h */,
+				A5743DB71A90AF130001CFC8 /* ListType.m */,
 				A5743DAE1A90A7120001CFC8 /* Difficulty.h */,
 				A5743DAF1A90A7120001CFC8 /* Difficulty.m */,
-				A5743DB21A90A7220001CFC8 /* DifficultyList.h */,
-				A5743DB31A90A7220001CFC8 /* DifficultyList.m */,
+				A5743DBA1A90AF1E0001CFC8 /* ListDifficulty.h */,
+				A5743DBB1A90AF1E0001CFC8 /* ListDifficulty.m */,
 				A5743D6D1A90A43A0001CFC8 /* AppDelegate.h */,
 				A5743D6E1A90A43A0001CFC8 /* AppDelegate.m */,
 				A5743D701A90A43A0001CFC8 /* FirstViewController.h */,
@@ -278,9 +278,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5743DBC1A90AF1E0001CFC8 /* ListDifficulty.m in Sources */,
 				A5743DA01A90A6C00001CFC8 /* Edition.m in Sources */,
 				A5743D751A90A43A0001CFC8 /* SecondViewController.m in Sources */,
 				A5743D6F1A90A43A0001CFC8 /* AppDelegate.m in Sources */,
+				A5743DB81A90AF130001CFC8 /* ListType.m in Sources */,
 				A5743D721A90A43A0001CFC8 /* FirstViewController.m in Sources */,
 				A5743D981A90A66D0001CFC8 /* Game.m in Sources */,
 				A5743DA81A90A6EE0001CFC8 /* Type.m in Sources */,
@@ -288,9 +290,7 @@
 				A5743DA41A90A6CA0001CFC8 /* Extension.m in Sources */,
 				A5743D9C1A90A69E0001CFC8 /* Variant.m in Sources */,
 				A5743D941A90A5D40001CFC8 /* Library.m in Sources */,
-				A5743DB41A90A7220001CFC8 /* DifficultyList.m in Sources */,
 				A5743DB01A90A7120001CFC8 /* Difficulty.m in Sources */,
-				A5743DAC1A90A7010001CFC8 /* TypeList.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,15 +298,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5743DB91A90AF130001CFC8 /* ListType.m in Sources */,
 				A5743D991A90A66D0001CFC8 /* Game.m in Sources */,
 				A5743DA11A90A6C00001CFC8 /* Edition.m in Sources */,
 				A5743D9D1A90A69E0001CFC8 /* Variant.m in Sources */,
-				A5743DAD1A90A7010001CFC8 /* TypeList.m in Sources */,
 				A5743DB11A90A7120001CFC8 /* Difficulty.m in Sources */,
 				A5743DA51A90A6CA0001CFC8 /* Extension.m in Sources */,
 				A5743D891A90A43A0001CFC8 /* LudoTechTests.m in Sources */,
 				A5743DA91A90A6EE0001CFC8 /* Type.m in Sources */,
-				A5743DB51A90A7220001CFC8 /* DifficultyList.m in Sources */,
+				A5743DBD1A90AF1E0001CFC8 /* ListDifficulty.m in Sources */,
 				A5743D951A90A5D40001CFC8 /* Library.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,6 +492,7 @@
 				A5743D8E1A90A43A0001CFC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A5743D8F1A90A43A0001CFC8 /* Build configuration list for PBXNativeTarget "LudoTechTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +501,7 @@
 				A5743D911A90A43A0001CFC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -10,4 +10,40 @@
 
 @implementation Variant
 
+-(void)addEdition:(Edition *)edition
+{
+    [_listEdition addObject:edition];
+}
+
+-(void)removeEdition:(Edition *)edition
+{
+    [_listEdition removeObject:edition];
+}
+
+-(void)displayEdition
+{
+    for (int ind = 0; ind < [_listEdition count]; ind++)
+    {
+        // TODO get Edtion
+    }
+}
+
+-(void)addExtension:(Extension *)extension
+{
+    [_listExtension addObject:extension];
+}
+
+-(void)removeExtension:(Extension *)extension
+{
+    [_listExtension removeObject:extension];
+}
+
+-(void)displayExtension
+{
+    for (int ind = 0; ind < [_listExtension count]; ind++)
+    {
+        // TODO get Extension
+    }
+}
+
 @end

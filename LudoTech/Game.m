@@ -10,4 +10,22 @@
 
 @implementation Game
 
+-(void)addVariant:(Variant *)variant
+{
+    [_listVariant addObject:variant];
+}
+
+-(void)removeVariant:(Variant *)variant
+{
+    [_listVariant removeObject:variant];
+}
+
+-(void)displayVariant
+{
+    for (int ind = 0; ind < [_listVariant count]; ind++)
+    {
+        // TODO get Variant
+    }
+}
+
 @end

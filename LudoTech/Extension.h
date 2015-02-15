@@ -9,5 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface Extension : NSObject
+{
+    
+}
+
+@property (strong, nonatomic) NSString* name;
 
 @end

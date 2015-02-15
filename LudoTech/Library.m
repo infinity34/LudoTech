@@ -10,4 +10,22 @@
 
 @implementation Library
 
+-(void)addGame:(Game *)game
+{
+    [_listGame addObject:game];
+}
+
+-(void)removeGame:(Game *)game
+{
+    [_listGame removeObject:game];
+}
+
+-(void)displayGame
+{
+    for (int ind = 0; ind < [_listGame count]; ind++)
+    {
+        // TODO get Game
+    }
+}
+
 @end

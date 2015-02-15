@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5743D6C1A90A43A0001CFC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5743D6B1A90A43A0001CFC8 /* main.m */; };
+		A5743D6F1A90A43A0001CFC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5743D6E1A90A43A0001CFC8 /* AppDelegate.m */; };
+		A5743D721A90A43A0001CFC8 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5743D711A90A43A0001CFC8 /* FirstViewController.m */; };
+		A5743D751A90A43A0001CFC8 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5743D741A90A43A0001CFC8 /* SecondViewController.m */; };
+		A5743D781A90A43A0001CFC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5743D761A90A43A0001CFC8 /* Main.storyboard */; };
+		A5743D7A1A90A43A0001CFC8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5743D791A90A43A0001CFC8 /* Images.xcassets */; };
+		A5743D7D1A90A43A0001CFC8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5743D7B1A90A43A0001CFC8 /* LaunchScreen.xib */; };
+		A5743D891A90A43A0001CFC8 /* LudoTechTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A5743D881A90A43A0001CFC8 /* LudoTechTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5743D831A90A43A0001CFC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5743D5E1A90A43A0001CFC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5743D651A90A43A0001CFC8;
+			remoteInfo = LudoTech;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5743D661A90A43A0001CFC8 /* LudoTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LudoTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5743D6A1A90A43A0001CFC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5743D6B1A90A43A0001CFC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5743D6D1A90A43A0001CFC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5743D6E1A90A43A0001CFC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5743D701A90A43A0001CFC8 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A5743D711A90A43A0001CFC8 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A5743D731A90A43A0001CFC8 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A5743D741A90A43A0001CFC8 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A5743D771A90A43A0001CFC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5743D791A90A43A0001CFC8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A5743D7C1A90A43A0001CFC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A5743D821A90A43A0001CFC8 /* LudoTechTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LudoTechTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5743D871A90A43A0001CFC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5743D881A90A43A0001CFC8 /* LudoTechTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LudoTechTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5743D631A90A43A0001CFC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5743D7F1A90A43A0001CFC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5743D5D1A90A43A0001CFC8 = {
+			isa = PBXGroup;
+			children = (
+				A5743D681A90A43A0001CFC8 /* LudoTech */,
+				A5743D851A90A43A0001CFC8 /* LudoTechTests */,
+				A5743D671A90A43A0001CFC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5743D671A90A43A0001CFC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5743D661A90A43A0001CFC8 /* LudoTech.app */,
+				A5743D821A90A43A0001CFC8 /* LudoTechTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5743D681A90A43A0001CFC8 /* LudoTech */ = {
+			isa = PBXGroup;
+			children = (
+				A5743D6D1A90A43A0001CFC8 /* AppDelegate.h */,
+				A5743D6E1A90A43A0001CFC8 /* AppDelegate.m */,
+				A5743D701A90A43A0001CFC8 /* FirstViewController.h */,
+				A5743D711A90A43A0001CFC8 /* FirstViewController.m */,
+				A5743D731A90A43A0001CFC8 /* SecondViewController.h */,
+				A5743D741A90A43A0001CFC8 /* SecondViewController.m */,
+				A5743D761A90A43A0001CFC8 /* Main.storyboard */,
+				A5743D791A90A43A0001CFC8 /* Images.xcassets */,
+				A5743D7B1A90A43A0001CFC8 /* LaunchScreen.xib */,
+				A5743D691A90A43A0001CFC8 /* Supporting Files */,
+			);
+			path = LudoTech;
+			sourceTree = "<group>";
+		};
+		A5743D691A90A43A0001CFC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5743D6A1A90A43A0001CFC8 /* Info.plist */,
+				A5743D6B1A90A43A0001CFC8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A5743D851A90A43A0001CFC8 /* LudoTechTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5743D881A90A43A0001CFC8 /* LudoTechTests.m */,
+				A5743D861A90A43A0001CFC8 /* Supporting Files */,
+			);
+			path = LudoTechTests;
+			sourceTree = "<group>";
+		};
+		A5743D861A90A43A0001CFC8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5743D871A90A43A0001CFC8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5743D651A90A43A0001CFC8 /* LudoTech */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5743D8C1A90A43A0001CFC8 /* Build configuration list for PBXNativeTarget "LudoTech" */;
+			buildPhases = (
+				A5743D621A90A43A0001CFC8 /* Sources */,
+				A5743D631A90A43A0001CFC8 /* Frameworks */,
+				A5743D641A90A43A0001CFC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LudoTech;
+			productName = LudoTech;
+			productReference = A5743D661A90A43A0001CFC8 /* LudoTech.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5743D811A90A43A0001CFC8 /* LudoTechTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5743D8F1A90A43A0001CFC8 /* Build configuration list for PBXNativeTarget "LudoTechTests" */;
+			buildPhases = (
+				A5743D7E1A90A43A0001CFC8 /* Sources */,
+				A5743D7F1A90A43A0001CFC8 /* Frameworks */,
+				A5743D801A90A43A0001CFC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5743D841A90A43A0001CFC8 /* PBXTargetDependency */,
+			);
+			name = LudoTechTests;
+			productName = LudoTechTests;
+			productReference = A5743D821A90A43A0001CFC8 /* LudoTechTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5743D5E1A90A43A0001CFC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Valentin Bercot";
+				TargetAttributes = {
+					A5743D651A90A43A0001CFC8 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A5743D811A90A43A0001CFC8 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A5743D651A90A43A0001CFC8;
+					};
+				};
+			};
+			buildConfigurationList = A5743D611A90A43A0001CFC8 /* Build configuration list for PBXProject "LudoTech" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5743D5D1A90A43A0001CFC8;
+			productRefGroup = A5743D671A90A43A0001CFC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5743D651A90A43A0001CFC8 /* LudoTech */,
+				A5743D811A90A43A0001CFC8 /* LudoTechTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5743D641A90A43A0001CFC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5743D781A90A43A0001CFC8 /* Main.storyboard in Resources */,
+				A5743D7D1A90A43A0001CFC8 /* LaunchScreen.xib in Resources */,
+				A5743D7A1A90A43A0001CFC8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5743D801A90A43A0001CFC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5743D621A90A43A0001CFC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5743D751A90A43A0001CFC8 /* SecondViewController.m in Sources */,
+				A5743D6F1A90A43A0001CFC8 /* AppDelegate.m in Sources */,
+				A5743D721A90A43A0001CFC8 /* FirstViewController.m in Sources */,
+				A5743D6C1A90A43A0001CFC8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5743D7E1A90A43A0001CFC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5743D891A90A43A0001CFC8 /* LudoTechTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5743D841A90A43A0001CFC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5743D651A90A43A0001CFC8 /* LudoTech */;
+			targetProxy = A5743D831A90A43A0001CFC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5743D761A90A43A0001CFC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5743D771A90A43A0001CFC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5743D7B1A90A43A0001CFC8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5743D7C1A90A43A0001CFC8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5743D8A1A90A43A0001CFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5743D8B1A90A43A0001CFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5743D8D1A90A43A0001CFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LudoTech/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A5743D8E1A90A43A0001CFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LudoTech/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A5743D901A90A43A0001CFC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LudoTechTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LudoTech.app/LudoTech";
+			};
+			name = Debug;
+		};
+		A5743D911A90A43A0001CFC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LudoTechTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LudoTech.app/LudoTech";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5743D611A90A43A0001CFC8 /* Build configuration list for PBXProject "LudoTech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5743D8A1A90A43A0001CFC8 /* Debug */,
+				A5743D8B1A90A43A0001CFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5743D8C1A90A43A0001CFC8 /* Build configuration list for PBXNativeTarget "LudoTech" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5743D8D1A90A43A0001CFC8 /* Debug */,
+				A5743D8E1A90A43A0001CFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A5743D8F1A90A43A0001CFC8 /* Build configuration list for PBXNativeTarget "LudoTechTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5743D901A90A43A0001CFC8 /* Debug */,
+				A5743D911A90A43A0001CFC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5743D5E1A90A43A0001CFC8 /* Project object */;
+}

@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Difficulty.h"
 
 @interface Edition : NSObject
 {
@@ -26,10 +25,8 @@
 @property (strong, nonatomic) NSMutableOrderedSet* listAuthor;
 @property (strong, nonatomic) NSMutableOrderedSet* listIllustrator;
 
-@property (weak, nonatomic) Difficulty* difficulty;
-
 // ===== METHODS =====
 
--(id) initWithName:(NSString*)name andLanguage:(NSString*)language andEditor:(NSString*)editor andTheme:(NSString*)theme andYear:(NSNumber*)year andDifficulty:(Difficulty*)difficulty;
+-(id) initWithName:(NSString*)name andLanguage:(NSString*)language andEditor:(NSString*)editor andTheme:(NSString*)theme andYear:(NSNumber*)year;
 
 @end

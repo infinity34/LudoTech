@@ -12,7 +12,7 @@
 
 // ===== CONSTRUCTORS =====
 
--(id)initWithName:(NSString *)name andLanguage:(NSString *)language andEditor:(NSString *)editor andTheme:(NSString *)theme andYear:(NSNumber *)year andDifficulty:(Difficulty *)difficulty
+-(id)initWithName:(NSString *)name andLanguage:(NSString *)language andEditor:(NSString *)editor andTheme:(NSString *)theme andYear:(NSNumber *)year
 {
     self = [super init];
     
@@ -24,8 +24,6 @@
         self->_theme = theme;
         
         self->_year = year;
-        
-        self->_difficulty = difficulty;
     }
     
     return self;

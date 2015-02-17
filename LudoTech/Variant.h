@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Edition.h"
 #import "Extension.h"
+#import "Difficulty.h"
 
 @interface Variant : NSObject
 {
@@ -22,9 +23,11 @@
 @property (strong, nonatomic) NSMutableOrderedSet* listEdition;
 @property (strong, nonatomic) NSMutableOrderedSet* listExtension;
 
+@property (weak, nonatomic) Difficulty* difficulty;
+
 // ===== METHODS =====
 
--(id) initWithName:(NSString*)name;
+-(id) initWithName:(NSString*)name andDifficulty:(Difficulty*)difficulty;
 
 -(void) addEdition:(Edition*)edition;
 -(void) removeEdition:(Edition*)edition;

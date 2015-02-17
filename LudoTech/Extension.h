@@ -7,18 +7,21 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Variant.h"
 
-@interface Extension : NSObject
+@interface Extension : Variant
 {
     
 }
 
 // ===== PROPERTIES =====
 
-@property (strong, nonatomic) NSString* name;
+@property (nonatomic) Boolean isAlone;
+
+@property (strong, nonatomic) Variant* basicGame;
 
 // ===== METHODS =====
 
--(id) initWithName:(NSString*)name;
+-(id) initWithName:(NSString *)name andDifficulty:(Difficulty *)difficulty andIsAlone:(Boolean)isAlone andBasicGame:(Variant*)basicGame;
 
 @end

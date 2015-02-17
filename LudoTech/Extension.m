@@ -12,13 +12,15 @@
 
 // ===== CONSTRUCTORS =====
 
--(id)initWithName:(NSString *)name
+-(id)initWithName:(NSString *)name andDifficulty:(Difficulty *)difficulty andIsAlone:(Boolean)isAlone andBasicGame:(Variant*)basicGame
 {
     self = [super init];
     
     if (self)
     {
-        self->_name = name;
+        self->_isAlone = isAlone;
+        
+        self->_basicGame = basicGame;
     }
     
     return self;

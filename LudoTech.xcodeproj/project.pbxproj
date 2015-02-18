@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		388CB2321A949EBE001EA136 /* Difficulty+DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 388CB2211A949EBE001EA136 /* Difficulty+DataModel.m */; };
+		388CB2331A949EBE001EA136 /* Difficulty+DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 388CB2211A949EBE001EA136 /* Difficulty+DataModel.m */; };
+		388CB2341A949EBE001EA136 /* Edition+DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 388CB2231A949EBE001EA136 /* Edition+DataModel.m */; };
+		388CB2351A949EBE001EA136 /* Edition+DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 388CB2231A949EBE001EA136 /* Edition+DataModel.m */; };
+		388CB2361A949EBE001EA136 /* Extension+DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 388CB2251A949EBE001EA136 /* Extension+DataModel.m */; };
+		388CB2371A949EBE001EA136 /* Extension+DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 388CB2251A949EBE001EA136 /* Extension+DataModel.m */; };
+		388CB2381A949EBE001EA136 /* Game+DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 388CB2271A949EBE001EA136 /* Game+DataModel.m */; };
+		388CB2391A949EBE001EA136 /* Game+DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 388CB2271A949EBE001EA136 /* Game+DataModel.m */; };
+		388CB23A1A949EBE001EA136 /* GamePlayed+DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 388CB2291A949EBE001EA136 /* GamePlayed+DataModel.m */; };
+		388CB23B1A949EBE001EA136 /* GamePlayed+DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 388CB2291A949EBE001EA136 /* GamePlayed+DataModel.m */; };
+		388CB23C1A949EBE001EA136 /* Library+DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 388CB22B1A949EBE001EA136 /* Library+DataModel.m */; };
+		388CB23D1A949EBE001EA136 /* Library+DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 388CB22B1A949EBE001EA136 /* Library+DataModel.m */; };
+		388CB23E1A949EBE001EA136 /* Person+DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 388CB22D1A949EBE001EA136 /* Person+DataModel.m */; };
+		388CB23F1A949EBE001EA136 /* Person+DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 388CB22D1A949EBE001EA136 /* Person+DataModel.m */; };
+		388CB2401A949EBE001EA136 /* Type+DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 388CB22F1A949EBE001EA136 /* Type+DataModel.m */; };
+		388CB2411A949EBE001EA136 /* Type+DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 388CB22F1A949EBE001EA136 /* Type+DataModel.m */; };
+		388CB2421A949EBE001EA136 /* Variant+DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 388CB2311A949EBE001EA136 /* Variant+DataModel.m */; };
+		388CB2431A949EBE001EA136 /* Variant+DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 388CB2311A949EBE001EA136 /* Variant+DataModel.m */; };
 		A55C344F1A948D0D00341118 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A55C344D1A948D0D00341118 /* Model.xcdatamodeld */; };
 		A5743D6C1A90A43A0001CFC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5743D6B1A90A43A0001CFC8 /* main.m */; };
 		A5743D6F1A90A43A0001CFC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5743D6E1A90A43A0001CFC8 /* AppDelegate.m */; };
@@ -69,6 +87,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		388CB2201A949EBE001EA136 /* Difficulty+DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Difficulty+DataModel.h"; sourceTree = "<group>"; };
+		388CB2211A949EBE001EA136 /* Difficulty+DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Difficulty+DataModel.m"; sourceTree = "<group>"; };
+		388CB2221A949EBE001EA136 /* Edition+DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Edition+DataModel.h"; sourceTree = "<group>"; };
+		388CB2231A949EBE001EA136 /* Edition+DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Edition+DataModel.m"; sourceTree = "<group>"; };
+		388CB2241A949EBE001EA136 /* Extension+DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Extension+DataModel.h"; sourceTree = "<group>"; };
+		388CB2251A949EBE001EA136 /* Extension+DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Extension+DataModel.m"; sourceTree = "<group>"; };
+		388CB2261A949EBE001EA136 /* Game+DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Game+DataModel.h"; sourceTree = "<group>"; };
+		388CB2271A949EBE001EA136 /* Game+DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Game+DataModel.m"; sourceTree = "<group>"; };
+		388CB2281A949EBE001EA136 /* GamePlayed+DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GamePlayed+DataModel.h"; sourceTree = "<group>"; };
+		388CB2291A949EBE001EA136 /* GamePlayed+DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GamePlayed+DataModel.m"; sourceTree = "<group>"; };
+		388CB22A1A949EBE001EA136 /* Library+DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Library+DataModel.h"; sourceTree = "<group>"; };
+		388CB22B1A949EBE001EA136 /* Library+DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Library+DataModel.m"; sourceTree = "<group>"; };
+		388CB22C1A949EBE001EA136 /* Person+DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+DataModel.h"; sourceTree = "<group>"; };
+		388CB22D1A949EBE001EA136 /* Person+DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+DataModel.m"; sourceTree = "<group>"; };
+		388CB22E1A949EBE001EA136 /* Type+DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Type+DataModel.h"; sourceTree = "<group>"; };
+		388CB22F1A949EBE001EA136 /* Type+DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Type+DataModel.m"; sourceTree = "<group>"; };
+		388CB2301A949EBE001EA136 /* Variant+DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Variant+DataModel.h"; sourceTree = "<group>"; };
+		388CB2311A949EBE001EA136 /* Variant+DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Variant+DataModel.m"; sourceTree = "<group>"; };
 		A55C344E1A948D0D00341118 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		A5743D661A90A43A0001CFC8 /* LudoTech.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LudoTech.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5743D6A1A90A43A0001CFC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -145,6 +181,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		388CB21F1A949EBE001EA136 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				388CB2201A949EBE001EA136 /* Difficulty+DataModel.h */,
+				388CB2211A949EBE001EA136 /* Difficulty+DataModel.m */,
+				388CB2221A949EBE001EA136 /* Edition+DataModel.h */,
+				388CB2231A949EBE001EA136 /* Edition+DataModel.m */,
+				388CB2241A949EBE001EA136 /* Extension+DataModel.h */,
+				388CB2251A949EBE001EA136 /* Extension+DataModel.m */,
+				388CB2261A949EBE001EA136 /* Game+DataModel.h */,
+				388CB2271A949EBE001EA136 /* Game+DataModel.m */,
+				388CB2281A949EBE001EA136 /* GamePlayed+DataModel.h */,
+				388CB2291A949EBE001EA136 /* GamePlayed+DataModel.m */,
+				388CB22A1A949EBE001EA136 /* Library+DataModel.h */,
+				388CB22B1A949EBE001EA136 /* Library+DataModel.m */,
+				388CB22C1A949EBE001EA136 /* Person+DataModel.h */,
+				388CB22D1A949EBE001EA136 /* Person+DataModel.m */,
+				388CB22E1A949EBE001EA136 /* Type+DataModel.h */,
+				388CB22F1A949EBE001EA136 /* Type+DataModel.m */,
+				388CB2301A949EBE001EA136 /* Variant+DataModel.h */,
+				388CB2311A949EBE001EA136 /* Variant+DataModel.m */,
+			);
+			path = DataModel;
+			sourceTree = "<group>";
+		};
 		A5743D5D1A90A43A0001CFC8 = {
 			isa = PBXGroup;
 			children = (
@@ -167,7 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				A5DBDBD71A9345C100ABE91B /* UI */,
-				A5DBDBD61A93459F00ABE91B /* DataModel */,
+				388CB21F1A949EBE001EA136 /* DataModel */,
 				A5DBDC2A1A9361EC00ABE91B /* CoreData */,
 				A5DBDC051A93617800ABE91B /* Business */,
 				A5743D6D1A90A43A0001CFC8 /* AppDelegate.h */,
@@ -208,13 +269,6 @@
 				A5743D871A90A43A0001CFC8 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A5DBDBD61A93459F00ABE91B /* DataModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = DataModel;
 			sourceTree = "<group>";
 		};
 		A5DBDBD71A9345C100ABE91B /* UI */ = {
@@ -379,26 +433,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				388CB23A1A949EBE001EA136 /* GamePlayed+DataModel.m in Sources */,
 				A5DBDC341A93624000ABE91B /* Edition.m in Sources */,
 				A5DBDC4C1A93624000ABE91B /* Extension.m in Sources */,
 				A5DBDC281A93617800ABE91B /* Variant.m in Sources */,
 				A5DBDC541A93624000ABE91B /* ListType.m in Sources */,
+				388CB23C1A949EBE001EA136 /* Library+DataModel.m in Sources */,
 				A5DBDC1A1A93617800ABE91B /* Edition.m in Sources */,
 				A5DBDC241A93617800ABE91B /* ListType.m in Sources */,
 				A5DBDC501A93624000ABE91B /* GamePlayed.m in Sources */,
+				388CB2421A949EBE001EA136 /* Variant+DataModel.m in Sources */,
+				388CB2361A949EBE001EA136 /* Extension+DataModel.m in Sources */,
 				A5743D751A90A43A0001CFC8 /* SecondViewController.m in Sources */,
 				A5743D6F1A90A43A0001CFC8 /* AppDelegate.m in Sources */,
 				A5743D721A90A43A0001CFC8 /* FirstViewController.m in Sources */,
+				388CB2321A949EBE001EA136 /* Difficulty+DataModel.m in Sources */,
 				A55C344F1A948D0D00341118 /* Model.xcdatamodeld in Sources */,
 				A5DBDC1E1A93617800ABE91B /* Game.m in Sources */,
 				A5DBDC481A93624000ABE91B /* Person.m in Sources */,
 				A5DBDC3C1A93624000ABE91B /* Library.m in Sources */,
+				388CB2401A949EBE001EA136 /* Type+DataModel.m in Sources */,
 				A5743D6C1A90A43A0001CFC8 /* main.m in Sources */,
+				388CB2381A949EBE001EA136 /* Game+DataModel.m in Sources */,
 				A5DBDC381A93624000ABE91B /* Type.m in Sources */,
 				A5DBDC581A93624000ABE91B /* Variant.m in Sources */,
 				A5DBDC201A93617800ABE91B /* Library.m in Sources */,
+				388CB2341A949EBE001EA136 /* Edition+DataModel.m in Sources */,
 				A5DBDC401A93624000ABE91B /* Game.m in Sources */,
 				A5DBDC301A93623F00ABE91B /* Difficulty.m in Sources */,
+				388CB23E1A949EBE001EA136 /* Person+DataModel.m in Sources */,
 				A5DBDC181A93617800ABE91B /* Difficulty.m in Sources */,
 				A5DBDC1C1A93617800ABE91B /* Extension.m in Sources */,
 				A5DBDC221A93617800ABE91B /* ListDifficulty.m in Sources */,
@@ -411,26 +474,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				388CB23B1A949EBE001EA136 /* GamePlayed+DataModel.m in Sources */,
 				A5DBDC411A93624000ABE91B /* Game.m in Sources */,
 				A5DBDC511A93624000ABE91B /* GamePlayed.m in Sources */,
 				A5DBDC391A93624000ABE91B /* Type.m in Sources */,
+				388CB2371A949EBE001EA136 /* Extension+DataModel.m in Sources */,
 				A5DBDC551A93624000ABE91B /* ListType.m in Sources */,
+				388CB2411A949EBE001EA136 /* Type+DataModel.m in Sources */,
 				A5DBDC351A93624000ABE91B /* Edition.m in Sources */,
 				A5DBDC591A93624000ABE91B /* Variant.m in Sources */,
 				A5DBDC1F1A93617800ABE91B /* Game.m in Sources */,
 				A5DBDC491A93624000ABE91B /* Person.m in Sources */,
+				388CB2391A949EBE001EA136 /* Game+DataModel.m in Sources */,
 				A5DBDC291A93617800ABE91B /* Variant.m in Sources */,
+				388CB23D1A949EBE001EA136 /* Library+DataModel.m in Sources */,
 				A5743D891A90A43A0001CFC8 /* LudoTechTests.m in Sources */,
+				388CB2351A949EBE001EA136 /* Edition+DataModel.m in Sources */,
 				A5DBDC251A93617800ABE91B /* ListType.m in Sources */,
 				A5DBDC211A93617800ABE91B /* Library.m in Sources */,
 				A5DBDC311A93623F00ABE91B /* Difficulty.m in Sources */,
 				A5DBDC231A93617800ABE91B /* ListDifficulty.m in Sources */,
 				A5DBDC451A93624000ABE91B /* ListDifficulty.m in Sources */,
+				388CB2431A949EBE001EA136 /* Variant+DataModel.m in Sources */,
 				A5DBDC1D1A93617800ABE91B /* Extension.m in Sources */,
 				A5DBDC191A93617800ABE91B /* Difficulty.m in Sources */,
 				A5DBDC3D1A93624000ABE91B /* Library.m in Sources */,
+				388CB2331A949EBE001EA136 /* Difficulty+DataModel.m in Sources */,
 				A5DBDC4D1A93624000ABE91B /* Extension.m in Sources */,
 				A5DBDC1B1A93617800ABE91B /* Edition.m in Sources */,
+				388CB23F1A949EBE001EA136 /* Person+DataModel.m in Sources */,
 				A5DBDC271A93617800ABE91B /* Type.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
